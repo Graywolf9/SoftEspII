@@ -1,0 +1,35 @@
+BODY {
+
+	background: url("http://i.imgur.com/EdftlZQ.jpg");
+
+}
+
+
+
+DIV {
+
+	background: linear-gradient(to top, black 0%, gray 100%);
+
+	width: 15%;
+
+	height: 30ex;
+
+	margin: 0 auto;
+
+	margin-top: 30ex;
+
+	border-radius: 9px;
+
+
+
+	box-shadow: 10px 3px 42px -4px rgba(0,0,0,0.74);
+
+}
+
+
+
+P {
+
+	text-align: center;
+	color: white;
+}

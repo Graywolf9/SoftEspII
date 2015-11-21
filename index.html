@@ -1,28 +1,61 @@
 <!DOCTYPE html>
+
 <HTML>
-    <HEAD></HEAD>
+
+    <HEAD>
+
+        <link href="estilo.css" rel="stylesheet" type="text/css">
+
+    </HEAD>
+
     <BODY>
+
         <DIV>
-            Bienvenido<br/>
-            Contesta la siguiente encuesta<br/>
+
+            <P>
+
+                Bienvenido<br/>
+
+                Contesta la siguiente encuesta<br/>
+
                 Sexo:
+
                 Masculino
+
                 <input type="radio" checked name="sexo" id="m" />
+
                 Femenino
+
                 <input type="radio" name="sexo" id="f" /><br/>
+
                 <input type="submit" name="1" id="1" value="continuar" onclick="sexo()" />
-           
+
+            </P>
+
         </DIV>
+
     </BODY>
+
     <script type="text/javascript" charset="utf-8">
+
         function sexo(){
+
             var masculino = document.getElementById("m").checked;
+
             if (masculino) {
+
                 document.location.href = "hombre.html";
+
             }
+
             else {
+
                 document.location.href = "mujer.html";
+
             }
+
         }
+
     </script>
+
 </HTML>
